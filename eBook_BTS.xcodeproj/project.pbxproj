@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45672EEE2959A8FD002956C7 /* WebViewStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45672EED2959A8FD002956C7 /* WebViewStateModel.swift */; };
+		45672EF12959A917002956C7 /* WKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45672EF02959A917002956C7 /* WKView.swift */; };
+		45686954295B0AEF00E22519 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 45686953295B0AEF00E22519 /* Kingfisher */; };
+		4568695A295B0BE800E22519 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45686959295B0BE800E22519 /* Video.swift */; };
+		45686977295B12A900E22519 /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45686976295B12A900E22519 /* WebsiteView.swift */; };
+		456869E3295C3C4D00E22519 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456869E2295C3C4D00E22519 /* Youtube.swift */; };
+		4923B29D28FFED850070960B /* btssong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4923B29C28FFED850070960B /* btssong.mp3 */; };
+		4923B2A028FFF83B0070960B /* runbts.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4923B29F28FFF83B0070960B /* runbts.mp4 */; };
+		4923B2A729000E520070960B /* btswall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4923B2A629000E520070960B /* btswall.jpeg */; };
+		4987799729556EBD00098DED /* GoogleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987799629556EBD00098DED /* GoogleSearch.swift */; };
+		49D0B339290255B500B1B039 /* RM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0B338290255B500B1B039 /* RM.swift */; };
+		49D0B33C290255BF00B1B039 /* JIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0B33B290255BF00B1B039 /* JIN.swift */; };
+		49D0B33F290255CA00B1B039 /* SUGA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0B33E290255CA00B1B039 /* SUGA.swift */; };
+		49D0B342290255DB00B1B039 /* JHOPE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0B341290255DB00B1B039 /* JHOPE.swift */; };
+		49D0B345290255E900B1B039 /* V.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0B344290255E900B1B039 /* V.swift */; };
+		49D0B348290255F500B1B039 /* JIMIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0B347290255F500B1B039 /* JIMIN.swift */; };
+		49D0B34B2902560D00B1B039 /* JK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0B34A2902560D00B1B039 /* JK.swift */; };
+		49D1734728F835D7000B6E6B /* eBook_BTSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1734628F835D7000B6E6B /* eBook_BTSApp.swift */; };
+		49D1734928F835D7000B6E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1734828F835D7000B6E6B /* ContentView.swift */; };
+		49D1734B28F835E0000B6E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1734A28F835E0000B6E6B /* Assets.xcassets */; };
+		49D1734E28F835E0000B6E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1734D28F835E0000B6E6B /* Preview Assets.xcassets */; };
+		49D1735728F835FA000B6E6B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1735628F835FA000B6E6B /* Home.swift */; };
+		49D1735A28F8360E000B6E6B /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1735928F8360E000B6E6B /* Member.swift */; };
+		49D1736228F83641000B6E6B /* bts-louder.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 49D1736128F83641000B6E6B /* bts-louder.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45672EED2959A8FD002956C7 /* WebViewStateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewStateModel.swift; sourceTree = "<group>"; };
+		45672EF02959A917002956C7 /* WKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKView.swift; sourceTree = "<group>"; };
+		45686959295B0BE800E22519 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		45686976295B12A900E22519 /* WebsiteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
+		456869E2295C3C4D00E22519 /* Youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
+		4923B29C28FFED850070960B /* btssong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = btssong.mp3; sourceTree = "<group>"; };
+		4923B29F28FFF83B0070960B /* runbts.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = runbts.mp4; sourceTree = "<group>"; };
+		4923B2A629000E520070960B /* btswall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = btswall.jpeg; path = Photo/btswall.jpeg; sourceTree = SOURCE_ROOT; };
+		4987799629556EBD00098DED /* GoogleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearch.swift; sourceTree = "<group>"; };
+		49D0B338290255B500B1B039 /* RM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM.swift; sourceTree = "<group>"; };
+		49D0B33B290255BF00B1B039 /* JIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIN.swift; sourceTree = "<group>"; };
+		49D0B33E290255CA00B1B039 /* SUGA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUGA.swift; sourceTree = "<group>"; };
+		49D0B341290255DB00B1B039 /* JHOPE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHOPE.swift; sourceTree = "<group>"; };
+		49D0B344290255E900B1B039 /* V.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V.swift; sourceTree = "<group>"; };
+		49D0B347290255F500B1B039 /* JIMIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIMIN.swift; sourceTree = "<group>"; };
+		49D0B34A2902560D00B1B039 /* JK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JK.swift; sourceTree = "<group>"; };
+		49D1734328F835D7000B6E6B /* eBook_BTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBook_BTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D1734628F835D7000B6E6B /* eBook_BTSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBook_BTSApp.swift; sourceTree = "<group>"; };
+		49D1734828F835D7000B6E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49D1734A28F835E0000B6E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49D1734D28F835E0000B6E6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49D1734F28F835E0000B6E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D1735628F835FA000B6E6B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		49D1735928F8360E000B6E6B /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		49D1736128F83641000B6E6B /* bts-louder.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bts-louder.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D1734028F835D7000B6E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45686954295B0AEF00E22519 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45672EE02959A72E002956C7 /* GoogleSearch */ = {
+			isa = PBXGroup;
+			children = (
+				45686976295B12A900E22519 /* WebsiteView.swift */,
+				45672EF02959A917002956C7 /* WKView.swift */,
+				45672EED2959A8FD002956C7 /* WebViewStateModel.swift */,
+				4987799629556EBD00098DED /* GoogleSearch.swift */,
+			);
+			path = GoogleSearch;
+			sourceTree = "<group>";
+		};
+		4923B2A22900038B0070960B /* BTS Video */ = {
+			isa = PBXGroup;
+			children = (
+				49D1736128F83641000B6E6B /* bts-louder.mp4 */,
+				4923B29F28FFF83B0070960B /* runbts.mp4 */,
+			);
+			path = "BTS Video";
+			sourceTree = "<group>";
+		};
+		49CF60B728FFDBC4001B6576 /* BTS Song */ = {
+			isa = PBXGroup;
+			children = (
+				4923B29C28FFED850070960B /* btssong.mp3 */,
+			);
+			path = "BTS Song";
+			sourceTree = "<group>";
+		};
+		49D0B31E290254BC00B1B039 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				49D0B338290255B500B1B039 /* RM.swift */,
+				49D0B33B290255BF00B1B039 /* JIN.swift */,
+				49D0B33E290255CA00B1B039 /* SUGA.swift */,
+				49D0B341290255DB00B1B039 /* JHOPE.swift */,
+				49D0B344290255E900B1B039 /* V.swift */,
+				49D0B347290255F500B1B039 /* JIMIN.swift */,
+				49D0B34A2902560D00B1B039 /* JK.swift */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		49D1733A28F835D7000B6E6B = {
+			isa = PBXGroup;
+			children = (
+				49D1734528F835D7000B6E6B /* eBook_BTS */,
+				49D1734428F835D7000B6E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D1734428F835D7000B6E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D1734328F835D7000B6E6B /* eBook_BTS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D1734528F835D7000B6E6B /* eBook_BTS */ = {
+			isa = PBXGroup;
+			children = (
+				49D1734628F835D7000B6E6B /* eBook_BTSApp.swift */,
+				4923B2A629000E520070960B /* btswall.jpeg */,
+				4923B2A22900038B0070960B /* BTS Video */,
+				49CF60B728FFDBC4001B6576 /* BTS Song */,
+				49D1734828F835D7000B6E6B /* ContentView.swift */,
+				49D1735628F835FA000B6E6B /* Home.swift */,
+				49D1735928F8360E000B6E6B /* Member.swift */,
+				45686959295B0BE800E22519 /* Video.swift */,
+				456869E2295C3C4D00E22519 /* Youtube.swift */,
+				45672EE02959A72E002956C7 /* GoogleSearch */,
+				49D0B31E290254BC00B1B039 /* Member */,
+				49D1734A28F835E0000B6E6B /* Assets.xcassets */,
+				49D1734F28F835E0000B6E6B /* Info.plist */,
+				49D1734C28F835E0000B6E6B /* Preview Content */,
+			);
+			path = eBook_BTS;
+			sourceTree = "<group>";
+		};
+		49D1734C28F835E0000B6E6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49D1734D28F835E0000B6E6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D1734228F835D7000B6E6B /* eBook_BTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D1735228F835E0000B6E6B /* Build configuration list for PBXNativeTarget "eBook_BTS" */;
+			buildPhases = (
+				49D1733F28F835D7000B6E6B /* Sources */,
+				49D1734028F835D7000B6E6B /* Frameworks */,
+				49D1734128F835D7000B6E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eBook_BTS;
+			packageProductDependencies = (
+				45686953295B0AEF00E22519 /* Kingfisher */,
+			);
+			productName = eBook_BTS;
+			productReference = 49D1734328F835D7000B6E6B /* eBook_BTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D1733B28F835D7000B6E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					49D1734228F835D7000B6E6B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 49D1733E28F835D7000B6E6B /* Build configuration list for PBXProject "eBook_BTS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D1733A28F835D7000B6E6B;
+			packageReferences = (
+				45686952295B0AEF00E22519 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 49D1734428F835D7000B6E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D1734228F835D7000B6E6B /* eBook_BTS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D1734128F835D7000B6E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D1734E28F835E0000B6E6B /* Preview Assets.xcassets in Resources */,
+				4923B29D28FFED850070960B /* btssong.mp3 in Resources */,
+				4923B2A028FFF83B0070960B /* runbts.mp4 in Resources */,
+				4923B2A729000E520070960B /* btswall.jpeg in Resources */,
+				49D1734B28F835E0000B6E6B /* Assets.xcassets in Resources */,
+				49D1736228F83641000B6E6B /* bts-louder.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D1733F28F835D7000B6E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45672EF12959A917002956C7 /* WKView.swift in Sources */,
+				49D0B33C290255BF00B1B039 /* JIN.swift in Sources */,
+				49D1734928F835D7000B6E6B /* ContentView.swift in Sources */,
+				49D0B345290255E900B1B039 /* V.swift in Sources */,
+				49D1735728F835FA000B6E6B /* Home.swift in Sources */,
+				49D0B339290255B500B1B039 /* RM.swift in Sources */,
+				49D1734728F835D7000B6E6B /* eBook_BTSApp.swift in Sources */,
+				49D0B33F290255CA00B1B039 /* SUGA.swift in Sources */,
+				45686977295B12A900E22519 /* WebsiteView.swift in Sources */,
+				456869E3295C3C4D00E22519 /* Youtube.swift in Sources */,
+				4568695A295B0BE800E22519 /* Video.swift in Sources */,
+				49D1735A28F8360E000B6E6B /* Member.swift in Sources */,
+				49D0B34B2902560D00B1B039 /* JK.swift in Sources */,
+				4987799729556EBD00098DED /* GoogleSearch.swift in Sources */,
+				49D0B342290255DB00B1B039 /* JHOPE.swift in Sources */,
+				49D0B348290255F500B1B039 /* JIMIN.swift in Sources */,
+				45672EEE2959A8FD002956C7 /* WebViewStateModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49D1735028F835E0000B6E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49D1735128F835E0000B6E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D1735328F835E0000B6E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eBook_BTS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = eBook_BTS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0657151.eBook-BTS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49D1735428F835E0000B6E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eBook_BTS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = eBook_BTS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0657151.eBook-BTS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D1733E28F835D7000B6E6B /* Build configuration list for PBXProject "eBook_BTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D1735028F835E0000B6E6B /* Debug */,
+				49D1735128F835E0000B6E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D1735228F835E0000B6E6B /* Build configuration list for PBXNativeTarget "eBook_BTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D1735328F835E0000B6E6B /* Debug */,
+				49D1735428F835E0000B6E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45686952295B0AEF00E22519 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45686953295B0AEF00E22519 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45686952295B0AEF00E22519 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 49D1733B28F835D7000B6E6B /* Project object */;
+}
